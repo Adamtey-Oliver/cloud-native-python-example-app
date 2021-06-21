@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     #return render_template("index.html")
-    return "This works, which is surprising sometimes"
+    return "This works, which is surprising sometimes. Now with 100% more DevOps!"
  
 
 @app.route("/healthz")
